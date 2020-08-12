@@ -1,5 +1,6 @@
 require_relative 'spec_helper'
 require 'pry'
+# require_relative ' ../../../lib/student.rb'
 describe Student do
 
   before do
@@ -192,4 +193,5 @@ describe Student do
       end
     end
   end
+  # binding.pry
 end
